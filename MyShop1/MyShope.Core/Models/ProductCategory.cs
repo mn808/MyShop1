@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace MyShope.Core.Models
 {
-    public class ProductCategory
+    public class ProductCategory : BaseEntity
     {
-        public string Id;
+       
         public string Category;
 
-        public ProductCategory()
-        {
-            this.Id = Guid.NewGuid().ToString();
-        }
+        
     }
 }
