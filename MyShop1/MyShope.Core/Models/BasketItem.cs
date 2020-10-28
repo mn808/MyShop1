@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyShope.Core.Models
 {
-   public class BasketItem
+   public class BasketItem : BaseEntity
     {
         public string BasketId;
         public string ProductId;
