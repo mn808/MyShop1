@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace MyShope.Core.Models
 {
-    public class ProductCategory : BaseEntity
+   public class BasketItem
     {
-       
-        public string Category { get; set; }
-
-
+        public string BasketId;
+        public string ProductId;
+        public int Quantity;
     }
 }

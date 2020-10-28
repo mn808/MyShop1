@@ -18,6 +18,8 @@ namespace MyShop.DataAccess.SQL
 
         public DbSet<Product> Products;
         public DbSet<ProductCategory> ProductsCategories;
+        public DbSet<Basket> Baskets;
+        public DbSet<BasketItem> BasketItems;
 
     }
 }
